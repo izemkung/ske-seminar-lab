@@ -14,7 +14,7 @@ patches:
         value: 3
       - op: replace
         path: /spec/template/spec/containers/0/args/1
-        value: "-text=SKE Order Service v1.0 | Msg: $(WELCOME_MSG) | Env: $(APP_ENV) | Key: $(API_KEY)"
+        value: "-text=SKE Order Service v1.1 | Msg: $(WELCOME_MSG) | Env: $(APP_ENV) | Key: $(API_KEY)"
   - target:
       kind: Ingress
       name: order-service-ingress
