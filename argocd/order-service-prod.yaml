@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/izemkung/ske-seminar-lab.git
+    repoURL: https://github.com//ske-seminar-lab.git
     targetRevision: main
     path: overlays/prod
   destination:
